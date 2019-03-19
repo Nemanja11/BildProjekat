@@ -1,0 +1,330 @@
+h1,h2,h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h1{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+h2,h3 {
+    font-size: 24px;
+    color: #8a8888;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+    color: #adacac;
+}
+.footer h2 {
+    color: #efefef;
+}
+.footer-bottom p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.btn p {
+    font-size: 14px;
+    color: #fff;
+}
+main a {
+    color: #737373;
+}
+@keyframes uredjaj {
+    0% {
+        opacity: 0;
+    }
+    33%{
+        opacity: 1;
+    }
+}
+
+a svg:hover #twitter {
+    fill: #00bbf5;
+    transition: 100ms;
+    transition-timing-function: ease-out;
+}
+a svg:hover #facebook {
+    fill: #00bb;
+    transition: 1500ms;
+    transition-timing-function: ease-out;
+}
+a svg:hover #rss {
+    fill: #e79411;
+    transition: 100ms;
+    transition-timing-function: ease-out;
+}
+a svg:hover #pinterest {
+    fill: #e21f26;
+    transition: 100ms;
+    animation-timing-function: ease-out;
+}
+a svg:hover #google {
+    fill: #ea6558;
+    transition: 100ms;
+    animation-timing-function: ease-out;
+}
+a svg:hover #google {
+    fill: #ea6558;
+    transition: 100ms;
+    animation-timing-function: ease-out;
+}
+a svg:hover #tribbble {
+    fill: #464c52;
+    transition: 100ms;
+    animation-timing-function: ease-out;
+}
+
+
+
+.page-title{
+    background-color: #2ecc71;
+}
+
+.text-behind-image{
+    margin-top: 20px;
+}
+
+.tab-links-field{
+    background-color: #efefef;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.photo-link,.seo-link,.appli-link{
+    padding: 65px;
+}
+.tab-links .nav-item a h3{
+    text-align: center;
+    margin-top:57px;  
+}
+.tab-links .nav-item a img{
+    margin-left:50px;
+}
+.tab-links .nav-link{
+    padding: 42px;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background-color: #dadada;
+}
+.tab-label{
+    height: 80px;
+}
+.portfolioFilter a h3:hover {
+    color: #a5e4bb;
+}
+.grid-list-links a svg{
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+}
+.grid-list-links a svg:hover #list-view{
+    fill: #a5e4bb;
+    transition: 100ms;
+    transition-timing-function: ease-out;
+}
+.grid-list-links a svg:hover #grid-view{
+    fill: #a5e4bb;
+    transition: 100ms;
+    transition-timing-function: ease-out;
+}
+.icons { 
+    color:#737373;
+}
+.icons {
+    margin-top:0.4em;
+    margin-left :0.3em;
+}
+#filter {
+   margin-top:10px;
+}
+.item {
+    padding:0;
+}
+.portfolioimg {
+    width: 100%;
+    height:220px;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+.hide {
+  display:none;
+}
+.listapregled {
+    display:block;
+    overflow: hidden;
+}
+.ale{display:1;}
+
+#navbar-work .dropdown-item {
+    color:#737373;
+}
+#navbar-work .dropdown-item:hover {
+    background-color : #eaeaea;
+}
+#navbar-work {
+    padding:0;
+}
+#selected {
+    padding:0;
+}
+.dropdown-toggle {
+    padding:0;
+}
+#filters {
+    display: flex;
+    align-content: center;
+}
+#search-header {
+    margin-top: 10px;
+}
+#search-header .container-filter {
+    margin-top:2em;
+    margin-bottom:10px;
+}
+.portfolioFilter {
+    text-align: center;
+    width: 100%;
+}
+.portfolioFilter a {
+    color: #666;
+    text-decoration: none;
+    display: inline;
+}
+.sort-nav {
+    display: block;
+}
+  
+.sort-nav li {
+    float: left;
+}
+.sort-nav a h3:focus,.sort-nav a h3:hover,.sort-nav a h3:active {
+    color: #a5e4bb;
+    outline: 0;
+}
+.portfolioContainer{
+    padding-bottom: 740px;
+}
+.portfolioContainer img {
+    margin: 10px 20px 10px 0px;
+    width: 300px;
+    height: 220px;
+}
+.portfolioContainer div,img {
+    float: left;
+}
+
+form textarea{
+    border-color: #8a8888;
+    border-width: 2px;
+}
+.contact{
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
+form .w-100{
+    padding-top: 15px;
+}
+.input-data{
+    width: 350px;
+    height: 45px;
+    border-color: #8a8888;
+}
+.button{
+    border-radius: 0px;
+    background-color: #2ecc71;
+    border: 0px;   
+}
+
+form div input,textarea,button {
+   margin-bottom: 15px; 
+}
+.input-data{
+    width: 65%;
+    height: 40px;
+}
+
+.banner{
+    position: relative;
+    background-size: cover;
+    padding-top: 460px;
+    background-color: #2ecc71;
+}
+
+.slika {
+    position: absolute;
+    margin-top: -420px;
+    left: 20.3%;
+    opacity: 1;
+    transform: scale(1);
+    animation: uredjaj 5s ease-in-out forwards;
+}
+
+.text-button-podfolio{
+    margin-top: 110px;
+}
+.text-button-podfolio div button{
+    margin-top: 5px; 
+}
+.text-button-podfolio div p{
+    text-align: center;
+}
+
+.videopopup img{
+    cursor: pointer;
+}
+.videopopup img:hover{
+    opacity: .7;
+}
+.videopopup{
+    margin-top: 32px;
+}
+.videoText h2 {
+    margin: 50px;
+}
+.slick-slide{
+    padding-left:5px;
+    padding-right:5px;
+}
+.slick-center{
+    cursor: pointer;
+}
+.slick-slide{
+    height: auto;
+    margin-bottom: 50px;  
+}
+
+a:hover{
+    text-decoration: none;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+.text-muted {
+    margin: 20px 0;
+}
+.footer-top{
+    background-color: #322f2f;
+    color: #efefef;
+}
+
+.footer-button{
+    background-color: #2ecc71; 
+}
+.footer-button p{
+    margin-bottom:0px;
+    padding: 5px;
+}
+.footer-bottom p{
+    margin-bottom:0px;
+    padding: 15px;
+}
+.footer-links a{
+    text-decoration: none;
+}
